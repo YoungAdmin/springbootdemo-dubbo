@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d3be82b-768d-40d8-88fa-06c6dffdfa01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/api.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/zhg/ProvidersApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/zhg/api/UserControll.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/classes/com/zhg/swagger/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zhg/common/fastDFS/FastDFSClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zhg/common/responseResult/ResponseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zhg/common/responseResult/ResultCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zhg/common/responseResult/SysErrorCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/zhg/common/responseResult/SysResponseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/classes/META-INF/dao.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/zhg/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/zhg/jpa/JpaConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/classes/com/zhg/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/classes/com/zhg/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/target/pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/zhg/ServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/com/zhg/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/service.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/target/service.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="7d3be82b-768d-40d8-88fa-06c6dffdfa01" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -255,52 +195,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbodemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhg" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -404,7 +299,7 @@
       <workItem from="1562634869324" duration="2869000" />
       <workItem from="1562653283837" duration="8476000" />
       <workItem from="1562815593828" duration="1671000" />
-      <workItem from="1562824629600" duration="1856000" />
+      <workItem from="1562824629600" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="Springboot整合dubbo+zk+fastDFS">
       <created>1562827293908</created>
@@ -413,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562827293908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Springboot整合dubbo+zk+fastDFS">
+      <created>1562827596474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562827596474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81410000" />
+    <option name="totallyTimeSpent" value="81549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
