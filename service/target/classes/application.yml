@@ -1,0 +1,60 @@
+spring:
+  #发布应用程序配置
+  application:
+    name: zhg-dubbo-provider
+
+  dubbo:
+    application:
+      name: zhg-dubbo-provider   #别名，提供方应用信息，用于计算依赖关系
+    registry:
+      address: zookeeper://47.107.105.158:2181 #使用zookeeper注册中心暴露服务地址
+    protocol:
+      name: dubbo
+      port: -1         #配置暴露服务端口
+    scan: com.zhg.service   #扫描需要暴露的服务
+
+  #JPA配置
+  jpa:
+    database: mysql
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+
+
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.107.105.158:3306/vptvdb?characterEncoding=utf-8&useSSL=false
+    username: zhangsan
+    password: Zhangsan2018!
+
+
+#测试时tomcat的端口，发布时记得注释或删除
+server:
+  port: 9091
+logging:
+  level:
+    com.vptv: debug
+
+
+#数据库连接配置
+jdbc:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://47.107.105.158:3306/vptvdb?characterEncoding=utf-8&useSSL=false
+  username: zhangsan
+  password: Zhangsan2018!
+
+#fastDFS分布式文件系统配置
+connect_timeout: 2
+network_timeout: 30
+charset: UTF-8
+http:
+  tracker_http_port: 8088
+  anti_steal_token: no
+  secret_ket: FastDFS1234567890
+  tracker_server: 47.107.105.158:22122
+

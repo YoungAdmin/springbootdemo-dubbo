@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubbodemo</artifactId>
+        <groupId>com.zhg</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <packaging>jar</packaging>
+
+    <properties>
+        <start-class>com.zhg.ServiceApplication</start-class>
+    </properties>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>service</artifactId>
+
+    <dependencies>
+        <!--引入接口模块-->
+        <dependency>
+            <groupId>com.zhg</groupId>
+            <artifactId>interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--引入数据访问模块-->
+        <dependency>
+            <groupId>com.zhg</groupId>
+            <artifactId>dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>service</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <mainClass>com.zhg.ServiceApplication</mainClass>
+                    <layout>ZIP</layout>
+
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                        <!-- 分离出代码包
+                        <configuration>
+                            <classifier>exec</classifier>
+                        </configuration>
+                         -->
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
